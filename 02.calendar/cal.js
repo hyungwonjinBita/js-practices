@@ -22,6 +22,8 @@ for (let i = 1; i <= +date[2]; i++) {
   arr.push(i);
 }
 
+console.log(`       ${monthIndex}月${yearIndex}`);
+
 const day = ["日 ", "月 ", "火 ", "水 ", "木 ", "金 ", "土"];
 const countDay = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
